@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>EQ TEST 2</title>
+</head>
+<body>
+    <div id="main">
+        <div class="main_tit">
+            시작
+        </div>
+        <p>
+            감성지능 테스트(EQ TEST)<br><br>
+            다음의 질문을 읽고<br> 동의하는 정도를 선택하여 주십시오.
+        </p>
+        <button type="button" class="dis" onclick="begin()">시작</button>
+    </div>
+    <!-- intro -->
+
+    <div id="qna">
+        <div class="status">
+            <div class="statusBar"></div>
+        </div>
+        <div class="qBox"></div>
+        <div class="answerBox"></div>
+    </div>
+    <!-- 질문 -->
+    
+    <div id="result">
+        <h1>당신의 점수는?!</h1>
+        <div class="resultNum"></div>
+        <!-- <p>EQ TEST의 프로파일별 장단점 및<br> EQ 점수별 특징</p>
+        <hr> -->
+        <div class="resultDesc">a</div>
+        <button type="button" onclick="location.reload();">다시하기</button>
+    </div>
+    <!-- 결과 -->
+
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
